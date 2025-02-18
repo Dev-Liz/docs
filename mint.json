@@ -102,11 +102,12 @@
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Authentication",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/authentication/create-guest-session",
+        "api-reference/endpoint/authentication/create-request-token",
+        "api-reference/endpoint/authentication/create-session-id",
+        "api-reference/endpoint/authentication/validate-api-key"
       ]
     },
     {
@@ -123,15 +124,6 @@
         "api-reference/endpoint/account/list-rated-tv-shows",
         "api-reference/endpoint/account/list-watchlisted-movies",
         "api-reference/endpoint/account/list-watchlisted-tv-shows"
-      ]
-    },
-    {
-      "group": "Authentication",
-      "pages": [
-        "api-reference/endpoint/authentication/create-guest-session",
-        "api-reference/endpoint/authentication/create-request-token",
-        "api-reference/endpoint/authentication/create-session-id",
-        "api-reference/endpoint/authentication/validate-api-key"
       ]
     },
     {
