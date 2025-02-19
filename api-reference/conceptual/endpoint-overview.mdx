@@ -63,7 +63,7 @@ https://api.themoviedb.org/3
    This endpoint allows you to add a movie or TV show to your watchlist.
   </Card>
   <Card
-    title="/account/{{account_id}}"
+    title="/account/{account_id}"
     icon="square-3"
     href="https://devliz.mintlify.app/api-reference/endpoint/account/fetch-account-details"
   >
@@ -142,5 +142,48 @@ https://api.themoviedb.org/3
     href="https://devliz.mintlify.app/api-reference/endpoint/certifications/list-movie-certifications"
   >
    This endpoint allows you to get an up-to-date list of the officially supported TV show certifications on TMDB.
+  </Card>
+  </CardGroup>
+
+  ## Changes
+<CardGroup cols={1}>
+  <Card
+    title="/person/changes"
+    icon="square-1"
+    href="https://devliz.mintlify.app/api-reference/endpoint/changes/list-changed-persons"
+  >
+    This endpoint allows you to get an up-to-date list of the officially supported movie certifications on TMDB.
+  </Card>
+   <Card
+    title="/tv/changes"
+    icon="square-2"
+    href="https://devliz.mintlify.app/api-reference/endpoint/changes/list-changed-tv-shows"
+  >
+   This endpoint allows you to get an up-to-date list of the officially supported TV show certifications on TMDB.
+  </Card>
+  </CardGroup>
+
+## Collections
+<CardGroup cols={1}>
+  <Card
+    title="/collection/{collection_id}"
+    icon="square-1"
+    href="https://devliz.mintlify.app/api-reference/endpoint/collections/fetch-collection-details"
+  >
+    This endpoint allows you to fetch a collection by ID
+  </Card>
+   <Card
+    title="/collection/{collection_id}/images"
+    icon="square-2"
+    href="https://devliz.mintlify.app/api-reference/endpoint/collections/fetch-collection-images"
+  >
+   This endpoint allows you to fetch images that belong to a collection.
+  </Card>
+  <Card
+    title="/collection/{collection_id}/translations"
+    icon="square-3"
+    href="https://devliz.mintlify.app/api-reference/endpoint/collections/fetch-collection-translations"
+  >
+   This endpoint allows you to fetch translations in a collection.
   </Card>
   </CardGroup>

@@ -133,6 +133,14 @@
       ]
     },
     {
+      "group": "Collections",
+      "pages": [
+        "api-reference/endpoint/collections/fetch-collection-details",
+        "api-reference/endpoint/collections/fetch-collection-image",
+        "api-reference/endpoint/collections/fetch-collection-translations"
+      ]
+    },
+    {
       "group": "Changes",
       "pages": [
         "api-reference/endpoint/changes/list-changed-persons",
