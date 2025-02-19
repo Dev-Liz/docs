@@ -113,7 +113,13 @@ you will recieve a guest session_id like so:
 This is a unique Id for a user's account and a required parameter for all accounts endpoints. 
 It allow users to add or remove personalized informaton from a users account, and is 
 automatically generated once a user logs in to their TMDB account.
-#### To find your account_id:
+#### To find your account_id, you can either use the endpoint:
+```
+BaseUrl/account?api_key=YOUR_API_KEY&session_id=YOUR_SESSION_ID
+```
+
+or 
+
 - Login to your tmdb account on the API reference docs 
 - Check the account_id path parameter for any accounts endpoint.
 <img

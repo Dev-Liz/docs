@@ -4,6 +4,9 @@ description: 'Welcome to the home of your new documentation'
 mode: "custom"
 ---
 
+import Styles from '/style.css';
+
+
 <img
   className="block dark:hidden"
   src="/images/TMDB-Coverr.png"
@@ -16,50 +19,46 @@ mode: "custom"
   alt="Hero Dark"
 />
 
-<Card 
-    className="border-hidden center"
-    title="Welcome to TMDB API documentation"
-    text-align="center"
-    border-radius="0"
->
-    Select topics to explore
-</Card>
+<div className="intro-content">
+  <h1>Welcome to TMDB API documentation</h1>
+  <p>Select a topic to explore</p>
+</div>
 
 
 
-<CardGroup cols={3} className="p-6 center" >
+<CardGroup cols={3} className="p-6 intro-cards" >
   <Card
     title="Introduction"
     icon="Book"
-    href="https://devliz.mintlify.app/api-reference/introduction"
+    href="https://devliz.mintlify.app/api-reference/conceptual/introduction"
   >
     Overview and use cases of TMDB API
   </Card>
   <Card
     title="Obtain API key"
     icon="key"
-    href="https://devliz.mintlify.app/api-reference/obtain-key"
+    href="https://devliz.mintlify.app/api-reference/conceptual/obtain-key"
   >
     Learn how to access your API key
   </Card>
   <Card
     title="Authentication"
     icon="shield"
-    href="https://devliz.mintlify.app/api-reference/authentication"
+    href="https://devliz.mintlify.app/api-reference/conceptual/authentication"
   >
     Learn how to access our API reference with your key
   </Card>
   <Card
     title="Endpoints Overview"
     icon="crosshairs"
-    href="https://devliz.mintlify.app/api-reference/endpoint-overview"
+    href="https://devliz.mintlify.app/api-reference/conceptual/endpoint-overview"
   >
     View all our endpoints in one place
   </Card>
   <Card
     title="Errors & Rate Limits"
     icon="triangle-exclamation"
-    href="https://devliz.mintlify.app/api-reference/errors-ratelimits"
+    href="https://devliz.mintlify.app/api-reference/conceptual/errors-ratelimits"
   >
    View error codes and details
   </Card>
@@ -71,3 +70,4 @@ mode: "custom"
     All your questions answered in one place
   </Card>
 </CardGroup>
+

@@ -55,13 +55,13 @@
       "url": "home"
     },
     {
-      "name": "Guide",
-      "url": "essentials"
-    },
-    {
       "name": "API Reference",
       "url": "api-reference",
       "openapi": "/api-reference/TMDB-OAS.yaml"
+    },
+    {
+      "name": "Quick Reference Guide",
+      "url": "quick-reference"
     },
     {
       "name": "Changelog",
@@ -81,14 +81,13 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Quick Reference",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "quick-reference/libraries",
+        "quick-reference/glossary",
+        "quick-reference/faq",
+        "quick-reference/miscellenous",
+        "quick-reference/changelog"
       ]
     },
     {
