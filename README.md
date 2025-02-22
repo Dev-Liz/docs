@@ -1,32 +1,38 @@
-# Mintlify Starter Kit
+# Welcome to [TMDB](https://www.themoviedb.org/) API Reference Docs👋
+This is the V3 of TMDB API Reference Docs, my Capstone project for [TWMP](https://technicalwritingmp.com/) API docs cohort.
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+This reference doc was built with Mintlify, and has 100+ endpoints for various use cases.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+## About The Movie Database (TMDB)
+The Movie Database (TMDB) is a community-built database for movies and TV shows. Its API allows users to get information about movies, TV shows, movie professionals etc.
 
-### Development
+## Project Goal
+The aim of this project was to revamp and improve the existing [TMDB documentation](https://developer.themoviedb.org/docs/getting-started).
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+## The process
 
-```
-npm i -g mintlify
-```
+1. ### Existing Docs Audit
+   To improve on the existing TMDB documentation, I did an audit to understand its strengths and weaknesses, I also discussed with possible users (developers) to understand their pain points. From my audit, the documentation needed an improvement on Information architecture and overall user experience.
+   ![image](https://github.com/user-attachments/assets/b0912734-3ba0-4b2e-85a1-d781c3b7d0dd)
 
-Run the following command at the root of your documentation (where mint.json is)
 
-```
-mintlify dev
-```
+2. ### Testing the Endpoints with Postman
+I tested the 100+ endpoints on TMDB platform (using [Postman](postman.com)) to ensure that they were not broken or incorrect in any way.
+https://github.com/user-attachments/assets/127aaace-e1f3-4f68-bd64-bb4e7d52ce62
 
-### Publishing Changes
+3. ### Exporting to OpenAPI Spec
+   After a successful test of all the available endpoints on Postman, I used the Postman export feature to convert the API references to an OpenAPI spec file. I further converted the exported json file into yaml, using [TWMP](https://technicalwritingmp.com/)'s OpenAPI spec converter. I edited the converted YAML file to add the necessary descriptions and components, using [Swagger editor](https://editor.swagger.io/) and the VS Code IDE.
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
+![vscodeide](https://github.com/user-attachments/assets/da2cc558-1397-43ff-add6-4ba2255e9b6d)
 
-#### Troubleshooting
+4. ### Building the docs on Mintlify
+   For the final phase of this project, I used the [Mintlify](https://mintlify.com/) documentation tool to bring the OpenAPI reference to life. I imported the API reference from the OpenAPI spec file, customized the look and feel of the documentation, and improved its overall user experience using Mintlify components and custom CSS.
 
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `mint.json`
+
+Link to final documentation
+[Revamped TMDB Docs](https://devliz.mintlify.app/introduction)
+
+
+
+
+
