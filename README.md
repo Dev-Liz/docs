@@ -28,13 +28,13 @@ This reference doc was built with Mintlify, and has 100+ endpoints for various u
 
 
 
-4. ### Building the docs on Mintlify
+4.  Building the docs on Mintlify
    For the final phase of this project, I used the [Mintlify](https://mintlify.com/) documentation tool to bring the OpenAPI reference to life. I imported the API reference from the OpenAPI spec file, customized the look and feel of the documentation, and improved its overall user experience using Mintlify components and custom CSS.
    ![image](https://github.com/user-attachments/assets/0d360eab-3857-40ae-9c67-b4d87ccf0f41)
 
 
 
-Link to final documentation
+### Link to final documentation
 [Revamped TMDB Docs](https://devliz.mintlify.app/introduction)
 
 
