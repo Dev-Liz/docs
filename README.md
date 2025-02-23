@@ -1,7 +1,7 @@
 # Welcome to [TMDB](https://www.themoviedb.org/) API Reference Docs👋
-This is the V3 of TMDB API Reference Docs, my Capstone project for [TWMP](https://technicalwritingmp.com/) API docs cohort.
+This is my Capstone project for [TWMP](https://technicalwritingmp.com/) API docs cohort, a reference doc for The Movie Database (TMDB).
 
-This reference doc was built with Mintlify, and has 100+ endpoints for various use cases.
+This reference doc was built with [Mintlify](https://mintlify.com/), and has 100+ endpoints for various use cases.
 
 ## About The Movie Database (TMDB)
    The Movie Database (TMDB) is a community-built database for movies and TV shows. Its API allows users to get information about movies, TV shows, movie professionals etc.
