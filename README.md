@@ -1,5 +1,5 @@
 # Welcome to [TMDB](https://www.themoviedb.org/) API Reference Docs👋
-This is my Capstone project for [TWMP](https://technicalwritingmp.com/) API docs cohort, a revamp of [TMDB](https://www.themoviedb.org/) API reference docs.
+This is my Capstone project for Technical Writing Mentorship Program [TWMP](https://technicalwritingmp.com/) API docs cohort, a revamp of The Movie Database [TMDB](https://www.themoviedb.org/) API reference docs.
 **Link to revamped docs**: [Revamped TMDB Docs](https://devliz.mintlify.app/introduction)
 *********************************************************************************************************************************************************************************
 *********************************************************************************************************************************************************************************
@@ -59,7 +59,7 @@ mintlify dev
 Make your changes to the documentation files inside the project folder.
 *Mintlify server will automatically reload changes.*
 
-***For a BTS of the process, please check below.***
+***For a BTS of the documentation process, please check below.***
 *********************************************************************************************************************************************************************************
 *********************************************************************************************************************************************************************************
 
