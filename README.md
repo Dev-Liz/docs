@@ -1,15 +1,62 @@
 # Welcome to [TMDB](https://www.themoviedb.org/) API Reference Docs👋
-This is my Capstone project for [TWMP](https://technicalwritingmp.com/) API docs cohort, a reference doc for The Movie Database (TMDB).
-
-This reference doc was built with [Mintlify](https://mintlify.com/), and has 100+ endpoints for various use cases.
+This is my Capstone project for [TWMP](https://technicalwritingmp.com/) API docs cohort, a revamp of [TMDB](https://www.themoviedb.org/) API reference docs.
+**Link to revamped docs**: [Revamped TMDB Docs](https://devliz.mintlify.app/introduction)
 
 ## About The Movie Database (TMDB)
-   The Movie Database (TMDB) is a community-built database for movies and TV shows. Its API allows users to get information about movies, TV shows, movie professionals etc.
+The Movie Database (TMDB) is a community-built database for movies and TV shows. Its API allows users to get information about movies, TV shows, movie professionals etc.
+Some of its use cases include:
+- Finding Movies and TV Shows
+- Getting Movie recommendations
+- Contributing to the database
+- Developing applications
 
-## Project Goal
-   The aim of this project was to revamp and improve the existing [TMDB documentation](https://developer.themoviedb.org/docs/getting-started).
+## About the project
+This documentation project is designed to improve on the existing [TMDB Documentation](https://www.themoviedb.org/). The new documentation features include:
+- A simple and user-friendly interface
+- A snapshot of the key conceptual pages
+- A well-designed navigation and information architecture
+- A well-structured reference guide
+- A set of well-defined endpoints
 
-## The process
+## Tools used
+The major tools used for this project include:
+- **Postman:** For testing and exporting endpoints
+- **Postman-to-OAS converter:** For converting Postman OpenAPI Spec (OAS) file to YAML.
+- **Swagger and VS Code:** For editing the OAS file
+- **Mintlify:** For building and customizing the documentation.
+
+### To run this documentation locally:
+**1. Fork the repository (if you're not sure, [here's how](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)**  
+
+**2. Clone your forked repository to your local computer using this command** 
+```
+git clone https://github.com/your-username/docs.git
+cd docs.git
+```
+
+**3. Install dependencies** 
+*Ensure to have Node.js version 19+ installed*
+*Then use the command below to install the Mintlify CLI and project dependencies:*
+```
+npm install -g mintlify
+mintlify install
+```
+
+**4. Start development server** 
+*Run the command below to start the development server. This will serve the documentation at http://localhost:3000 by default.*
+```
+mintlify dev
+```
+**5. Edit and preview changes** 
+Make your changes to the documentation files inside the project folder.
+*Mintlify server will automatically reload changes.*
+
+***For a BTS of the process, please check below.***
+
+
+
+
+## The Process
 
 1. ### Existing Docs Audit
    To improve on the existing TMDB documentation, I did an audit to understand its strengths and weaknesses, I also discussed with possible users (developers) to understand their pain points. From my audit, the documentation needed an improvement on Information architecture and overall user experience.
