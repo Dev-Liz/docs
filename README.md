@@ -5,7 +5,7 @@ This is my Capstone project for Technical Writing Mentorship Program [TWMP](http
 *********************************************************************************************************************************************************************************
 
 ## About The Movie Database (TMDB)
-The Movie Database (TMDB) is a community-built database for movies and TV shows. Its API allows users to get information about movies, TV shows, movie professionals etc.
+The Movie Database (TMDB) is a community-built database for movies and TV shows. Its API allow users to get information about movies, TV shows, movie professionals etc.
 Some of its use cases include:
 - Finding Movies and TV Shows
 - Getting Movie recommendations
