@@ -1,5 +1,5 @@
 # Welcome to [TMDB](https://www.themoviedb.org/) API Reference Docs👋
-This is my Capstone project for Technical Writing Mentorship Program [TWMP](https://technicalwritingmp.com/) API docs cohort, a revamp of The Movie Database [TMDB](https://www.themoviedb.org/) API reference docs. <br/>
+This is my capstone project for Technical Writing Mentorship Program [TWMP](https://technicalwritingmp.com/) API docs cohort, a revamp of The Movie Database [TMDB](https://www.themoviedb.org/) API reference docs. <br/>
 **Link to revamped docs**: [Revamped TMDB Docs](https://devliz.mintlify.app/introduction)
 *********************************************************************************************************************************************************************************
 *********************************************************************************************************************************************************************************
